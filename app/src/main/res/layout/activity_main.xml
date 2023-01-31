@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false">
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-6944068380993727/2830511381" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/popup_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/noAds"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="2dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="adsButton"
+        android:src="@drawable/ads_button" />
+
+    <ImageView
+        android:id="@+id/voltar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="voltar"
+        android:src="@drawable/button_back" />
+
+</FrameLayout>

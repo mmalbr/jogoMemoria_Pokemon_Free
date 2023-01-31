@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/difficulty_padding"
+    android:paddingRight="@dimen/difficulty_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/difficulty_margin"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="@dimen/difficulty_margin"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.meafocus.memoriakids01.ui.DifficultyView
+            android:id="@+id/select_difficulty_1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/time_difficulty_1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/time_border"
+            android:textSize="17sp" />
+
+        <com.meafocus.memoriakids01.ui.DifficultyView
+            android:id="@+id/select_difficulty_4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/time_difficulty_4"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="-40dp"
+            android:background="@drawable/time_border"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/difficulty_margin"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="@dimen/difficulty_margin"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.meafocus.memoriakids01.ui.DifficultyView
+            android:id="@+id/select_difficulty_2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/time_difficulty_2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/time_border"
+            android:textSize="17sp" />
+
+        <com.meafocus.memoriakids01.ui.DifficultyView
+            android:id="@+id/select_difficulty_5"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/time_difficulty_5"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="-40dp"
+            android:background="@drawable/time_border"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/difficulty_margin"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="@dimen/difficulty_margin"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.meafocus.memoriakids01.ui.DifficultyView
+            android:id="@+id/select_difficulty_3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/time_difficulty_3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/time_border"
+            android:textSize="17sp" />
+
+        <com.meafocus.memoriakids01.ui.DifficultyView
+            android:id="@+id/select_difficulty_6"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/time_difficulty_6"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="-40dp"
+            android:background="@drawable/time_border"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
